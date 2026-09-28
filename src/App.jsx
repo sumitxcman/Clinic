@@ -225,28 +225,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-sans">
-      {/* 1. TOP ANNOUNCEMENT BAR */}
-      <div className="bg-teal-900 text-teal-100 text-xs py-2 px-4 border-b border-teal-800">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div className="flex items-center space-x-3">
-            <span className="inline-flex items-center text-amber-300 font-semibold">
-              <Star className="w-3.5 h-3.5 fill-amber-300 mr-1" /> 5.0 (219+ Google Reviews)
-            </span>
-            <span className="hidden md:inline text-teal-300">•</span>
-            <span className="hidden md:inline">Model Town III, Azadpur, New Delhi</span>
-            <span className="hidden sm:inline text-teal-300">•</span>
-            <span className="text-teal-200">Open · Closes 6:00 PM</span>
-          </div>
-          <div className="flex items-center space-x-4">
-            <span className="text-teal-300 text-[11px] font-medium hidden sm:inline">Women-Owned Practice</span>
-            <a href="tel:09911058375" className="hover:text-white font-semibold flex items-center transition-colors">
-              <Phone className="w-3 h-3 mr-1 text-teal-400" /> +91 99110 58375
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* 2. NAVBAR */}
+      {/* 1. NAVBAR */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-xs transition-all duration-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
